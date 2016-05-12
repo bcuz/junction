@@ -80,6 +80,12 @@ h1 {
 
 .footer {
   text-align: center;
+  height: 250px;
+}
+
+.footer .container {
+  position: relative;
+  top: 150px;
 }
 
 .footer a {
