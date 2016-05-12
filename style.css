@@ -1,99 +1,107 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Merriweather', serif;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
 }
 
 .container {
-  max-width:940px;
+    max-width: 940px;
 }
 
 body {
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg) no-repeat center center fixed;
-  background-size: cover;
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
+
 /* Header */
+
 .header {
-  padding: 10px 0;
-  background-color: rgba(0,0,0,.5);
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, .5);
 }
 
 ul {
-  padding-left: 0;
-  margin-left: 10px;
-  margin-top: 8px;
+    padding-left: 0;
+    margin-left: 10px;
+    margin-top: 8px;
 }
 
 li {
-  display: inline;
-  color: white;
-  margin-right: 25px;
+    display: inline;
+    color: white;
+    margin-right: 25px;
 }
 
 li img {
-  width: 36px;
+    width: 36px;
 }
 
+
 /* Jumbotron */
+
 .jumbotron {
-  position: relative;
-  top: 40px;
-  text-shadow: 0 2px 3px rgba(0,0,0,.4);
-  text-align: center;
-  color: #fff;
-  background-color: rgba(0,0,0,0);
+    position: relative;
+    top: 40px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 h1 {
-  font-size: 63px;
+    font-size: 63px;
 }
+
+
 /* Supporting */
+
 .supporting {
-  margin-top: 40px;
-  text-shadow: 0 2px 3px rgba(0,0,0,.4);
-  text-align: center;
-  color: #fff;
+    margin-top: 40px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+    text-align: center;
+    color: #fff;
 }
 
 .col-md-4 img {
-  width: 135px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    width: 135px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .col-md-4 h2 {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 .col-md-4 p {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 992px) {
-  /* remember to change max/min */
-  .col-md-4 p {
-    margin-bottom: 40px;
-  }
+    /* remember to change max/min */
+    .col-md-4 p {
+        margin-bottom: 40px;
+    }
 }
 
 .footer {
-  text-align: center;
-  height: 250px;
+    text-align: center;
+    height: 250px;
 }
 
 .footer a {
-  margin-top: 100px;
-  color: #fff;
-  text-decoration: none;
-  background-color: rgba(0,255,188,0.5);
-  padding: 10px 60px;
-  border-radius: 10px;
-  font-size: 18px;
-  display: inline-block;
+    margin-top: 100px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(0, 255, 188, 0.5);
+    padding: 10px 60px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: inline-block;
 }
 
 .footer a:hover {
-  background-color: rgba(0,0,0,.5);
+    background-color: rgba(0, 0, 0, .5);
 }
