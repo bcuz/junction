@@ -24,6 +24,10 @@ li {
   color: white;
 }
 
+li img {
+  width: 35px;
+}
+
 /* Jumbotron */
 .jumbotron {
   position: relative;
