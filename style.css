@@ -83,12 +83,13 @@ h1 {
   height: 250px;
 }
 
-.footer .container {
+/*.footer .container {
   position: relative;
   top: 150px;
-}
+}*/
 
 .footer a {
+  margin-top: 100px;
   color: #fff;
   text-decoration: none;
   background-color: rgba(0,255,188,0.5);
