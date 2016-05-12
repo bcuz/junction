@@ -86,8 +86,9 @@ h1 {
   color: #fff;
   text-decoration: none;
   background-color: rgba(0,255,188,0.5);
-  padding: 10px 40px;
+  padding: 10px 60px;
   border-radius: 10px;
+  font-size: 18px;
 }
 
 .footer a:hover {
