@@ -95,6 +95,7 @@ h1 {
   padding: 10px 60px;
   border-radius: 10px;
   font-size: 18px;
+  display: inline-block;
 }
 
 .footer a:hover {
