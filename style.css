@@ -52,4 +52,13 @@ h1 {
 .supporting {
   margin-top: 40px;
   text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-align: center;
+  color: #fff;
+}
+
+.col-md-4 img {
+  width: 135px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
