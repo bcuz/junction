@@ -45,6 +45,9 @@ li img {
   background-color: rgba(0,0,0,0);
 }
 
+h1 {
+  font-size: 63px;
+}
 /* Supporting */
 .supporting {
   margin-top: 40px;
