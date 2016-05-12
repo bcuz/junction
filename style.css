@@ -8,6 +8,11 @@ html, body {
   max-width:940px;
 }
 
+body {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 /* Header */
 .header {
   padding: 10px 0;
