@@ -94,12 +94,12 @@ h1 {
   }
 }
 
-.footer {
+footer {
     text-align: center;
     height: 250px;
 }
 
-.footer a {
+footer a {
     margin-top: 100px;
     color: #fff;
     text-decoration: none;
@@ -110,6 +110,6 @@ h1 {
     display: inline-block;
 }
 
-.footer a:hover {
+footer a:hover {
     background-color: rgba(0, 0, 0, .5);
 }
