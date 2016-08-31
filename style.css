@@ -99,7 +99,7 @@ footer {
     height: 250px;
 }
 
-footer a {
+footer .btn {
     /* stuff being canceled out by boot here*/
     margin-top: 100px;
     color: #fff;
@@ -109,9 +109,10 @@ footer a {
     border-radius: 10px;
     font-size: 18px;
     display: inline-block;
+    border: none;
 }
 
-footer a:hover {
+footer .btn:hover {
     background-color: rgba(0, 0, 0, .5);
     color: #fff;
     text-decoration: none;
